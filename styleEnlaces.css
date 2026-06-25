@@ -1,0 +1,100 @@
+.enlaces-page {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enlaces-page section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 28px 32px;
+}
+
+.enlaces-page .Titulo-enlaces {
+    color: #14143a;
+    text-align: center;
+    border-bottom: 2px solid #c1c0f0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.enlaces-page .Encabezado-enlaces {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.enlaces-page .tabla-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.enlaces-page .tabla-info th {
+    background-color: #150e55;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.enlaces-page .tabla-info td {
+    padding: 12px;
+    border: 1px solid #d0d0e0;
+    color: #333;
+}
+
+.enlaces-page .tabla-info tr:nth-child(even) {
+    background-color: #f0f0ff;
+}
+
+.enlaces-page .tabla-info tr:hover {
+    background-color: #eaeaff;
+}
+
+
+.enlaces-page .link-enlace {
+    color: #160f3f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces-page .link-enlace:hover {
+    color: #101224;
+    text-decoration: underline;
+}
+
+.enlaces-page .Titulo-recursos {
+    color: #26135a;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.enlaces-page .recursos {
+    margin-top: 30px;
+    background-color: #f1f0ff;
+    padding: 20px;
+    border-left: 4px solid #13073f;
+    border-radius: 0 8px 8px 0;
+}
+
+.enlaces-page .recursos ul {
+    padding-left: 25px;
+}
+
+.enlaces-page .recursos li {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.enlaces-page .link-informacion {
+    color: #151638;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces-page .link-informacion:hover {
+    color: #7c83e2;
+    text-decoration: underline;
+}

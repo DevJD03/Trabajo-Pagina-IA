@@ -1,39 +1,29 @@
-html{
-    background-color: #eaf2ff;
-    color: #1a1a1a;
-}
-
-body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-}
-
-main{
+.registro-page {
     width: 85%;
     margin: auto;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-section{
+.registro-page section {
     background-color: white;
     border-radius: 10px;
     padding: 28px 32px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-h2{
+.registro-page h2 {
     color: #2c3e50;
     text-align: center;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
 }
 
-p{
+.registro-page p {
     color: #333;
 }
 
-fieldset{
+.registro-page fieldset {
     border: 2px solid #3498db;
     border-radius: 10px;
     padding: 15px;
@@ -41,22 +31,22 @@ fieldset{
     background-color: #f8fbff;
 }
 
-legend{
+.registro-page legend {
     color: #2c3e50;
     font-weight: bold;
 }
 
-label{
+.registro-page label {
     display: block;
     margin-top: 10px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="date"],
-input[type="number"],
-select{
+.registro-page input[type="text"],
+.registro-page input[type="email"],
+.registro-page input[type="password"],
+.registro-page input[type="date"],
+.registro-page input[type="number"],
+.registro-page select {
     width: 60%;
     padding: 8px;
     margin-top: 5px;
@@ -64,20 +54,20 @@ select{
     border-radius: 5px;
 }
 
-textarea{
+.registro-page textarea {
     width: 95%;
     padding: 10px;
     border: 1px solid #3498db;
     border-radius: 5px;
 }
 
-input[type="radio"],
-input[type="checkbox"]{
+.registro-page input[type="radio"],
+.registro-page input[type="checkbox"] {
     width: auto;
     margin-right: 5px;
 }
 
-.boton-enviar{
+.boton-enviar {
     background-color: #3498db;
     color: white;
     border: none;
@@ -86,11 +76,11 @@ input[type="checkbox"]{
     cursor: pointer;
 }
 
-.boton-enviar:hover{
+.boton-enviar:hover {
     background-color: #2874a6;
 }
 
-.boton-reset{
+.boton-reset {
     background-color: #e74c3c;
     color: white;
     border: none;
@@ -99,6 +89,6 @@ input[type="checkbox"]{
     cursor: pointer;
 }
 
-.boton-reset:hover{
+.boton-reset:hover {
     background-color: #c0392b;
 }

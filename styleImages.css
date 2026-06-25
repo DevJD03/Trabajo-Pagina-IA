@@ -1,4 +1,4 @@
-.videos-page {
+.imagenes-page {
     background-color: #e6f0fa;
     color: #1a2530;
     font-family: 'Times New Roman', Times, serif;
@@ -8,12 +8,11 @@
     padding: 0 20px;
 }
 
-.videos-page h2 {
+.imagenes-page h2 {
     color: black;
 }
 
-/* ── Encabezado ── */
-.videos-page .encabezado {
+.imagenes-page .encabezado {
     background-color: #1B1F2A;
     color: white;
     text-align: center;
@@ -21,36 +20,35 @@
     border-radius: 0 0 12px 12px;
 }
 
-.videos-page .encabezado img {
+.imagenes-page .encabezado img {
     border-radius: 50%;
     border: 4px solid #b3d1ff;
     margin-bottom: 12px;
     object-fit: cover;
 }
 
-.videos-page .encabezado h1 {
+.imagenes-page .encabezado h1 {
     font-size: 2rem;
     font-weight: 700;
     color: white;
     margin: 0;
 }
 
-.videos-page .header-sub {
+.imagenes-page .header-sub {
     font-size: 1rem;
     color: #b3d1ff;
     margin-top: 6px;
     font-weight: 400;
 }
 
-/* ── Nav interno ── */
-.videos-page nav {
+.imagenes-page nav {
     background-color: #1B1F2A;
     padding: 12px 24px;
     border-radius: 0 0 8px 8px;
     margin-bottom: 28px;
 }
 
-.videos-page nav h2 {
+.imagenes-page nav h2 {
     color: #b3d1ff;
     font-size: 0.85rem;
     font-weight: 400;
@@ -58,7 +56,7 @@
     letter-spacing: 0.08em;
 }
 
-.videos-page nav ul {
+.imagenes-page nav ul {
     list-style: none;
     display: flex;
     gap: 24px;
@@ -66,7 +64,7 @@
     margin: 0;
 }
 
-.videos-page nav ul li a {
+.imagenes-page nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -76,19 +74,18 @@
     transition: background-color 0.3s ease;
 }
 
-.videos-page nav ul li a:hover {
+.imagenes-page nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* ── Secciones ── */
-.videos-page section {
+.imagenes-page section {
     background-color: white;
     border-radius: 10px;
     padding: 28px 32px;
     box-shadow: 0 4px 6px rgba(0, 64, 128, 0.05);
 }
 
-.videos-page section h2 {
+.imagenes-page section h2 {
     color: #004080;
     font-size: 1.4rem;
     border-bottom: 2px solid #b3d1ff;
@@ -96,35 +93,51 @@
     margin-bottom: 20px;
 }
 
-/* ── Artículos ── */
-.videos-page article {
+.imagenes-page section h2 .medio {
+    border: none;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.imagenes-page article {
     margin-bottom: 24px;
     padding-bottom: 20px;
     border-bottom: 1px solid #d0e1f5;
 }
 
-.videos-page article:last-child {
+.imagenes-page article:last-child {
     border-bottom: none;
     margin-bottom: 0;
 }
 
-.videos-page article h3 {
+.imagenes-page article h3 {
     color: #002b55;
     font-size: 1.1rem;
     margin-bottom: 12px;
 }
 
-.videos-page article p {
+.imagenes-page article img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.imagenes-page article img:hover {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 64, 128, 0.2);
+}
+
+.imagenes-page article p {
     color: #2b3a4a;
     margin: 8px 0;
 }
 
-.videos-page article q {
-    font-style: italic;
-    color: #2b3a4a;
-}
-
-.videos-page article strong p {
+.imagenes-page article strong p {
     font-size: 0.8rem;
     color: #667a90;
     margin-top: 6px;
@@ -132,32 +145,30 @@
     word-break: break-all;
 }
 
-/* ── Listas ── */
-.videos-page ol {
+.imagenes-page ol {
     margin: 10px 0 20px 24px;
     color: #2b3a4a;
 }
 
-.videos-page ol li {
+.imagenes-page ol li {
     margin-bottom: 6px;
     font-weight: bold;
 }
 
-/* ── Tabla e iframes ── */
-.videos-page table {
+.imagenes-page table {
     border: none !important;
     width: 100%;
     margin-top: 15px;
 }
 
-.videos-page table td {
+.imagenes-page table td {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
 
-.videos-page iframe {
+.imagenes-page iframe {
     width: 100%;
     max-width: 750px;
     height: 450px;
@@ -166,8 +177,14 @@
     box-shadow: 0 4px 12px rgba(0, 40, 80, 0.15);
 }
 
-/* ── Aside ── */
-.videos-page aside {
+.imagenes-page article > p:last-of-type {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #556677;
+    margin-top: 10px;
+}
+
+.imagenes-page aside {
     background-color: #f0f7ff;
     border-left: 4px solid #004080;
     padding: 12px 18px;
@@ -177,24 +194,6 @@
     margin-bottom: 30px;
 }
 
-/* ── Referencias (down) ── */
-.videos-page .down {
-    background-color: white;
-    border-radius: 10px;
-    padding: 24px 32px;
-    box-shadow: 0 4px 6px rgba(0, 64, 128, 0.05);
+.imagenes-page .down {
     text-align: center;
-    font-size: 0.9rem;
-    color: #2b3a4a;
-}
-
-.videos-page .down a {
-    color: #004080;
-    text-decoration: none;
-    display: block;
-    margin: 4px 0;
-}
-
-.videos-page .down a:hover {
-    text-decoration: underline;
 }
