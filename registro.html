@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial - Sitio Informativo</title>
+    <link rel="stylesheet" href="codigo.css">
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="homePage.html" class="logo">
+            <span class="logo-dot" aria-hidden="true"></span>
+            NODO
+            <span class="logo-accent">IA</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegación principal">
+            <ul>
+                <li><a href="homePage.html" class="is-current" aria-current="page">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<main id="Registro" class="Pagina">
+    <section>
+        <h2>Registro de Usuario</h2>
+        <p> Suscribete para recibir las ultimas noticias sobre Inteligencia Artificial.</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend> Datos personales</legend>
+                <label>Nombre: <input type="text" name="nombre" placeholder="Tu nombre" required /></label><br>
+                <label>Apellidos: <input type="text" name="apellidos" placeholder="Tus apellidos"
+                        required /></label><br>
+                <label>Correo: <input type="text" name="Correo" placeholder="correo@ejemplo.com" required /></label><br>
+                <label>Contraseña: <input type="password" name="clave" autofocus /></label><br>
+                <label>Fecha de nacimiento: <input type="date" name="fecha_nac" /></label><br>
+                <label>Edad: <input type="number" name="edad" min="10" max="99"
+                        placeholder="Entre 10 y 99 años" /></label><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferencias de IA</legend>
+                <p>Área de interés:</p>
+                <label><input type="radio" name="area" value="ml"> Machine Learning</label><br>
+                <label><input type="radio" name="area" value="nlp"> Procesamiento de Lenguaje</label><br>
+                <label><input type="radio" name="area" value="robotica"> Robotica</label><br>
+                <label><input type="radio" name="area" value="vision"> Vision por Computadora</label><br>
+                <br>
+                <p>Nivel de conocimiento:</p>
+                <select name="nivel">
+                    <option value="">Selecciona tu nivel</option>
+                    <optgroup label="Basico">
+                        <option value="Principiante">Principiante</option>
+                        <option value="Intermedio">Intermedio</option>
+                    </optgroup>
+                    <optgroup label="Avanzado">
+                        <option value="Experto">Experto</option>
+                        <option value="Investigador">Investigador</option>
+                    </optgroup>
+                </select>
+                <br>
+                <p>¿Qué contenido te interes? (puedes elegir varios):</p>
+                <label><input type="checkbox" name="contenido" value="articulo"> Articulo</label><br>
+                <label><input type="checkbox" name="contenido" value="videos"> Videos</label><br>
+                <label><input type="checkbox" name="contenido" value="cursos"> Cursos</label><br>
+                <label><input type="checkbox" name="contenido" value="noticias"> Noticias</label><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <p>¿Por qué te interesa la IA?</p>
+                <textarea name="comentario" cols="45" rows="4" minlength="10" maxlength="300"
+                    placeholder="Escribe aqui"></textarea>
+            </fieldset>
+            <br>
+            <label><input type="checkbox" name="terminos" required value="acepta">Acepta los terminos y
+                condiciones</label><br><br>
+            <input type="submit" value="Registrarme" class="boton-enviar">
+            <input type="reset" value="Limpiar formulario" class="boton-reset">
+        </form>
+    </section>
+</main>
+
+ <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="logo-dot" aria-hidden="true"></span>
+                <p>NODO<span class="logo-accent">IA</span> — Explorando el mundo de la inteligencia artificial.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Enlaces del pie de página">
+                <ul>
+                    <li><a href="homePage.html">Inicio</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="enlaces.html">Enlaces</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="imagenes.html">Imágenes</a></li>
+                </ul>
+            </nav>
+            <p class="footer-copy">&copy; 2026 NODOIA — Proyecto académico de Programación Avanzada. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</html>
