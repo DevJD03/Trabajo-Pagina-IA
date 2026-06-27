@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background:linear-gradient(135deg,#0B1026,#0E1330,#151E47);
+    font-family:Arial,sans-serif;
+    overflow:hidden;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    color:#4FD1C5;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:32px;
+    margin-bottom:25px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    text-shadow:0 0 12px rgba(79,209,197,.5);
+}
+
+img{
+    display:block;
+    border:4px solid #4FD1C5;
+    border-radius:20px;
+    box-shadow:
+        0 0 20px rgba(79,209,197,.4),
+        0 0 60px rgba(79,209,197,.15);
+    transition:.3s;
+}
+
+img:hover{
+    transform:scale(1.01);
+    box-shadow:
+        0 0 25px rgba(79,209,197,.7),
+        0 0 80px rgba(79,209,197,.25);
+}
+
+/* Línea decorativa debajo del título */
+h1::after{
+    content:"";
+    display:block;
+    width:220px;
+    height:4px;
+    margin:12px auto 0;
+    background:#4FD1C5;
+    border-radius:5px;
+}
+
+/* Marca inferior */
+
+body::after{
+    content:"Artificial Intelligence Explorer";
+    position:absolute;
+    bottom:18px;
+    color:#6f7ca8;
+    font-size:14px;
+    letter-spacing:2px;
+}
+#mapa{
+    width:95vw;
+    max-width:1500px;
+    height:auto;
+}
